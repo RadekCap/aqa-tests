@@ -34,6 +34,10 @@
 				<comment>https://github.com/adoptium/aqa-tests/issues/4745#issuecomment-1710101571</comment>
 				<version>21+</version>
 			</disable>
+			<disable>
+				<comment>https://github.com/RadekCap/aqa-tests/pull/1#issuecomment-1983328990</comment>
+				<version>21+</version>
+			</disable>
 		</disables>
 		<command>$(JAVA_COMMAND) $(JVM_OPTIONS) -jar $(Q)$(TEST_RESROOT)$(D)dacapo.jar$(Q) avrora; \
 		$(TEST_STATUS)</command>
